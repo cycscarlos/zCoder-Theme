@@ -1,0 +1,112 @@
+{
+  "name": "zCoder Theme",
+  "displayName": "zTheme",
+  "description": "Elegant, fluid, and modern theme",
+  "version": "0.0.1",
+  "publisher": "zCoder",
+  "author": "Carlos Colmenares A. [https://carlos-colmenares-a@netlify.app]",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#11131C",
+    "theme": "dark"
+  },
+  "homepage": "http://cycscarlos.github.io/zCoder-theme",
+  "main": "zCoder-Theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cycscarlos/zCoder-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cycscarlos/zCoder-theme/issues"
+  },
+  "engines": {
+    "node": "<=17.7.2",
+    "vscode": "^1.71.2"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zCoder Theme",
+        "path": "./themes/zCoder-Theme-Default.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme High Contrast",
+        "path": "./themes/zCoder-Theme-Default-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Darker",
+        "path": "./themes/zCoder-Theme-Darker.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Darker High Contrast",
+        "path": "./themes/zCoder-Theme-Darker-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Palenight",
+        "path": "./themes/zCoder-Theme-Palenight.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Palenight High Contrast",
+        "path": "./themes/zCoder-Theme-Palenight-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Ocean",
+        "path": "./themes/zCoder-Theme-Ocean.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Ocean High Contrast",
+        "path": "./themes/zCoder-Theme-Ocean-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "zCoder Theme Lighter",
+        "path": "./themes/zCoder-Theme-Lighter.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "zCoder Theme Lighter High Contrast",
+        "path": "./themes/zCoder-Theme-Lighter-High-Contrast.json",
+        "uiTheme": "vs"
+      }
+    ]
+  },
+  "extensionDependency": [
+    "zCoder-Theme-icons"
+  ],
+  "badges": [
+    {
+      "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
+      "href": "https://github.com/zCoder-Theme/vsc-zCoder-Theme/issues",
+      "description": "Open issues"
+    }
+  ],
+  "__metadata": {
+    "installedTimestamp": 1650063207556,
+    "id": "bf8aa94a-4051-42fe-9bd1-2becad466fe7",
+    "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+    "publisherDisplayName": "Carlos Colmenares A.",
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "preRelease": false
+  }
+}
